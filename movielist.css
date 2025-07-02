@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: #e1f9f8;
+    color: #09083d;
+}
+
+.movieContainer{
+    border: 2px solid #09083d;
+    padding: 0px 10px 10px 10px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+#divMovies{
+    border: 1px solid #09083d;
+    width: 480px;
+    height: 100px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f2ffff;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: #09083d;
+    color: #e1f9f8;
+    border-radius: 5px;
+    border-color: #e1f9f800;
+    margin-bottom: 10px;
+}
