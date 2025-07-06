@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 5.1</title>
+    <!-- link to page icon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- link to page styling -->
     <link rel="stylesheet" href="movielist.css">
 </head>
 <body>
@@ -13,20 +15,28 @@
     </header>
 
     <main>
+        <!-- container with all elements -->
         <section class="movieContainer">
+            <!-- promts the user to add a movie to the list -->
             <h2>Add Movie</h2>
+            <!-- provides clear instruction for the user of what goes where -->
             <label for="txtMovieName">Enter Movie Title: </label>
+            <!-- input formovie title -->
             <input type="text" id="txtMovieName" placeholder="Movie Title" required>
+            <!-- submit button for movie list and display -->
             <button type="submit" onclick="addMovie();">Add Movie</button>
             
             <div>
+                <!-- reset button to clear movie list -->
                 <button onclick="resetList();">Reset List</button>
             </div>
 
+            <!-- div where movies are going to display -->
             <div id="divMovies"></div>
         </section>
     </main>
 
+    <!-- link to script file -->
     <script src="movielist.js"></script>
 </body>
 </html>
